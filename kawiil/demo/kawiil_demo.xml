@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="kawiil_01" model="motorcycle.registry">
+            <field name="registry_number">aaa</field>
+            <field name="vin">102</field>
+            <field name="first_name">Luis</field>
+            <field name="last_name">Perez</field>
+        </record>
+        <record id="kawiil_02" model="motorcycle.registry">
+            <field name="registry_number">aab</field>
+            <field name="vin">109</field>
+            <field name="first_name">Jose</field>
+            <field name="last_name">Fernandez</field>
+        </record>
+        <record id="kawiil_03" model="motorcycle.registry">
+            <field name="registry_number">aac</field>
+            <field name="vin">124</field>
+            <field name="first_name">Pablo</field>
+            <field name="last_name">Galvez</field>
+        </record>
+    </data> 
+</odoo>

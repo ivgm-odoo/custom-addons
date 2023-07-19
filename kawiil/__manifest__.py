@@ -11,6 +11,8 @@
     'license': 'OPL-1',
     'depends': ['base'],
     'data': [],
-    'demo': [],
+    'demo': [
+        'demo/kawiil_demo.xml'
+    ],
     'application': True,
 }
