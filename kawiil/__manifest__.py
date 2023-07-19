@@ -10,7 +10,11 @@
     'category': 'Kawiil/Kawiil',
     'license': 'OPL-1',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/kawiil_groups.xml',
+        'security/ir.model.access.csv',
+        'security/kawiil_security.xml'
+    ],
     'demo': [
         'demo/kawiil_demo.xml'
     ],
