@@ -3,9 +3,14 @@ from odoo.exceptions import ValidationError
 import re
 
 class MotorcycleRegistry(models.Model):
+    #_inherit = "product.template"
+
     _name = 'motorcycle.registry'
     _rec_name = 'registry_number'
     _sql_constraints = [('unique_vin', 'unique(vin)', 'The VIN must be unique.'),]
+    _description = 'Motorcycle registry'
+
+    #detailed_type = fields.Selection(selection_add=[('motorcycle', 'Motorcycle'),], ondelete={'motorcycle': 'set product'})
 
     registry_number = fields.Char(string="Motorcycle Registry Number", required=True, default="MRN0001", copy=False, readonly=True)
     vin = fields.Char(required=True)

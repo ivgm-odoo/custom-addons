@@ -9,7 +9,7 @@
     'website': 'https://github.com/ivgm-odoo/custom-addons',
     'category': 'Kawiil/Kawiil',
     'license': 'OPL-1',
-    'depends': ['base'],
+    'depends': ['sale'],#['sale','stock'],
     'data': [
         'security/kawiil_groups.xml',
         'security/ir.model.access.csv',
@@ -19,7 +19,7 @@
         'views/motorcycle_views.xml'
     ],
     'demo': [
-        'demo/kawiil_demo.xml'
+        #'demo/kawiil_demo.xml'
     ],
     'application': True,
 }
