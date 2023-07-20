@@ -26,7 +26,7 @@
                             <field name="first_name" />
                             <field name="last_name" />
                             -->
-                            <field name="owner" />
+                            <field name="owner_id" />
                             <field name="email" />
                             <field name="phone" />
                         </group>
