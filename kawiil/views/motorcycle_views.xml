@@ -14,9 +14,9 @@
                         <group>
                             <separator string="Motorcycle information" />
                             <field name="register_date" />
-                            <field name="vin" />
+                            <field name="vin" required="1"/>
                             <field name="current_mileage" />
-                            <field name="license_plate" />
+                            <field name="license_plate" required="1"/>
                         </group>
                         <group>
                             <separator string="Owner information" />

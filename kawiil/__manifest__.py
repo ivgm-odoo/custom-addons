@@ -14,6 +14,7 @@
         'security/kawiil_groups.xml',
         'security/ir.model.access.csv',
         'security/kawiil_security.xml',
+        'data/kawiil_data.xml',
         'views/kawiil_menuitems.xml',
         'views/motorcycle_views.xml'
     ],
