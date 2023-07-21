@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <template id="motorcycle_comparation">
+            <h2>Motorcycle Comparation</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="8">Specifications</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Launch day</th>
+                        <th>Range</th>
+                        <th>Horsepower</th>
+                        <th>Torque</th>
+                        <th>Top Speed</th>
+                        <th>Battery Capacity</th>
+                        <th>Curb Weight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-foreach="motorcycles" t-as="i">
+                        <tr>
+                            <th><span t-field="i.name"/></th>
+                            <td style="text-align: center"><span t-field="i.launch_date"/></td>
+                            <td style="text-align: center"><span t-field="i.range1"/></td>
+                            <td style="text-align: center"><span t-field="i.horsepower"/></td>
+                            <td style="text-align: center"><span t-field="i.torque"/></td>
+                            <td style="text-align: center"><span t-field="i.top_speed"/></td>
+                            <td style="text-align: center"><span t-field="i.battery_capacity"/></td>
+                            <td style="text-align: center"><span t-field="i.curb_weight"/></td>
+                        </tr>
+                    </t>
+                </tbody>
+            </table>
+        </template>
+    </data>
+</odoo>
